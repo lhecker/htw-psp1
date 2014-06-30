@@ -1,0 +1,10 @@
+#!/bin/bash
+
+mkdir -p bin
+mkdir -p cache
+
+cd cache
+cmake -D CMAKE_BUILD_TYPE=Release ..
+make
+
+exit 0
